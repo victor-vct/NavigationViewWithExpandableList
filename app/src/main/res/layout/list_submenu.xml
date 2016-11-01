@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundItem">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_submenu"
+        android:text="submenu"
+        android:textColor="@color/fontColor"
+        android:layout_marginLeft="@dimen/margin_left_submenu"
+        android:textSize="@dimen/text_size_submenu"
+        android:id="@+id/submenu"/>
+
+</LinearLayout>
